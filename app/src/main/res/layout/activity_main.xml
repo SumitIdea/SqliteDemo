@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:layout_centerInParent="true">
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter ID for Update"
+            android:inputType="number"
+            android:layout_weight="2"
+            android:id="@+id/et_idforupdate">
+        </EditText>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter First Name"
+        android:inputType="text"
+        android:id="@+id/et_firstnem">
+    </EditText>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Last Name"
+        android:inputType="text"
+        android:id="@+id/et_lastnem">
+    </EditText>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/et_roll"
+        android:hint="Enter Roll No"
+        android:inputType="text">
+    </EditText>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnsv"
+        android:text="Save">
+    </Button>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnrd"
+        android:text="Read">
+    </Button>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnupdate"
+            android:text="Update">
+        </Button>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btndelete"
+            android:text="Delete">
+        </Button>
+    </LinearLayout>
+
+</RelativeLayout>
